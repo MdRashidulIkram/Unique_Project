@@ -1,0 +1,608 @@
+*{
+    padding: 0px;
+    margin: 0px;
+  }
+  
+  body {
+    font-size: 14px;
+    line-height: 24px;
+    font-family: 'Source Sans Pro', sans-serif;
+  }
+  
+  h1,h2,h3,h4,h5,h6 {
+    font-family: 'Source Sans Pro', sans-serif;
+  }
+  
+  a,a:hover {
+    text-decoration: none;
+  }
+
+  /***************header section starts*********************/
+  .header-section {
+      width: 100%;
+      background: url("../images/Hero.png") center top no-repeat;
+      background-size: cover;
+  }
+  
+  .header-section .menu-section {
+      width: 100%;
+  }
+
+  .header-section .menu-section .bg-light {
+      background: transparent !important;
+  }
+  .navbar-light .navbar-nav .active>.nav-link {
+    color: #511de5;
+    font-size: 14px;
+    font-weight: 600;
+    background: url("../images/line.png") center bottom no-repeat;
+  }
+
+  .navbar-light .navbar-nav .nav-link {
+    color: #000;
+    font-size: 14px;
+    font-weight: 600;
+    margin: 0px 10px;
+  }
+
+  .navbar-light .navbar-nav .nav-link:hover {
+    color: #511de5;
+    font-size: 14px;
+    font-weight: 600;
+    background: url("../images/line.png") center bottom no-repeat;
+    background-size: contain;
+  }
+
+  .menu-section .right-login .nav-link {
+    color: #000;
+    font-size: 14px;
+    font-weight: 600;
+    margin: 0px 15px;
+  }
+
+  .menu-section .right-login .btn-info {
+    font-size: 14px;
+    line-height: 24px;
+    font-weight: 600;
+    text-transform: capitalize;
+    padding: 10px 55px;
+    color: #fff;
+    border: 0px;
+    border-radius: 30px;
+    background: linear-gradient(to right, #511de5 52%, #157cf8);
+    ;
+    transition: 1s;
+  }
+
+  .menu-section .right-login .btn-info:hover {
+    border: 1px solid #511de5;
+    color: #511de5;
+    background: transparent
+  }
+/***************header section ends*********************/
+
+/***************banner section starts*********************/
+
+  .banner-section {
+      width: 100%;
+      padding: 60px 0px;
+  }
+
+  .banner-section .banner-inner {
+    width: 100%;
+    padding: 90px 0px 120px;
+  }
+
+  .banner-section .banner-inner h1 {
+    font-size: 52px;
+    font-weight: 800;
+    line-height: 58px;
+    letter-spacing: -4px;
+}
+
+  .banner-section .banner-inner h1 span {
+      color: #511de5;
+  }
+
+  .banner-section .banner-inner .btn-info {
+    font-size: 14px;
+    line-height: 24px;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    padding: 10px 55px;
+    margin: 15px 0px;
+    color: #000000;
+    border: 0px;
+    border-radius: 30px;
+    background: #f2f2f2;
+    transition: 1s;
+  }
+
+  .banner-section .banner-inner .btn-info:hover {
+      border: 1px solid #511de5;
+      color: #fff;
+      background: #511de5;
+  }
+/***************banner section ends*********************/
+
+/***************highlight section starts*********************/
+.highlight-section {
+    width: 100%;
+    background: url("../images/highlight.png") center center no-repeat;
+    background-size: cover;
+    padding: 40px 0px;
+
+}
+
+.highlight-section .highlight-inner {
+    width: 100%;
+}
+
+.highlight-section .highlight-inner .absu {
+    position: absolute;
+    width: 300px;
+    top: -130%;
+    left: 0px;
+}
+
+.highlight-section .highlight-inner h2 {
+    position: relative;
+    text-align: center;
+    font-size: 25px;
+    font-weight: 600;
+    color: #fff;
+    margin-bottom: 0px;
+}
+/***************highlight section ends*********************/
+
+/***************feature section starts*********************/
+.feature-section {
+    width: 100%;
+    padding: 90px 0px;
+}
+
+.feature-section .feature-inner {
+  width: 100%;
+  padding: 50px 140px 220px;
+  background: url(../images/fi.png) center bottom no-repeat;
+  background-size: cover;
+}
+
+.feature-section .feature-inner h1 {
+  font-size: 40px;
+  font-weight: 800;
+  line-height: 48px;
+  margin-bottom: 20px;
+  letter-spacing: -2px;
+}
+
+.feature-section .feature-inner p {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    font-family: 'Maven Pro', sans-serif;
+    margin-bottom: 20px;
+}
+
+.feature-section .feature-inner h4 strong{
+    font-size: 90px;
+    font-weight: 900;
+    color:  #511de5;
+    margin-bottom: 20px;
+}
+
+.feature-section .feature-inner h4 span {
+    font-size: 14px;
+    line-height: 24px;
+    font-family: 'Maven Pro', sans-serif;
+    font-weight: 700;
+    margin-bottom: 20px;
+
+}
+
+.feature-section .client {
+  width: 100%;
+  padding: 40px 0px;
+  text-align: center;
+}
+
+.feature-section .client img {
+  width: 70%;
+}
+
+/***************feature section ends*********************/
+
+/***************intro-quote section starts*********************/
+.intro-quote {
+  width: 100%;
+  padding: 170px 50px;
+  background: url(../images/layer.png) center top no-repeat;
+  background-size: cover;
+}
+
+.intro-quote .quote-pic {
+  width: 100%;
+  background: url(../images/Quote.png) center top no-repeat;
+  background-size: contain;
+  padding: 140px 118px;
+  
+}
+
+.intro-quote .quote-pic p {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+  font-family: 'Maven Pro', sans-serif;
+  color: #fff;
+  margin-bottom: 20px;
+}
+
+.intro-quote .quote-pic h6 {
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 24px;
+  color: #fff;
+  margin-bottom: 20px;
+}
+
+.intro-quote .quote-des {
+  width: 100%;
+  padding: 150px 50px;
+}
+
+.intro-quote .quote-des p {
+  font-size: 40px;
+  font-weight: 800;
+  line-height: 48px;
+  margin-bottom: 20px;
+  letter-spacing: -2px;
+}
+
+.intro-quote .quote-des .btn-info {
+  font-size: 14px;
+  line-height: 24px;
+  font-weight: 400;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  padding: 10px 55px;
+  margin: 15px 0px;
+  color: #000000;
+  border: 0px;
+  border-radius: 30px;
+  background: #f2f2f2;
+  transition: 1s;
+}
+
+.intro-quote .quote-des .btn-info:hover {
+    border: 1px solid #511de5;
+    color: #fff;
+    background: #511de5;
+}
+
+
+/***************intro-quote section ends*********************/
+
+/***************efficiency section starts*********************/
+.efficiency {
+  width: 100%;
+  padding: 30px 0px;
+}
+
+.efficiency .efficiency-inner {
+  width: 100%;
+  padding: 30px 40px;
+  margin: 0px 40px;
+}
+
+.efficiency .efficiency-inner h1 {
+  font-size: 40px;
+  font-weight: 800;
+  line-height: 48px;
+  margin-bottom: 20px;
+  letter-spacing: -2px;
+}
+
+.efficiency .efficiency-inner p {
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 24px;
+  font-family: 'Maven Pro', sans-serif;
+  margin-bottom: 20px;
+}
+
+.efficiency .efficiency-inner h6 {
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 24px;
+  margin-bottom: 20px;
+}
+
+.efficiency .efficiency-inner h6 .icon {
+  margin-right: 25px;
+}
+
+.efficiency-inner .btn-info {
+  font-size: 12px;
+  line-height: 24px;
+  font-weight: 400;
+  letter-spacing: 4px;
+  text-transform: uppercase;
+  padding: 10px 20px;
+  color: #fff;
+  border: 0px;
+  border-radius: 30px;
+  background: linear-gradient(to right, #511de5 52%, #157cf8);
+  transition: 1s;
+ }
+
+  .efficiency .efficiency-inner .btn-info:hover {
+    border: 1px solid #511de5;
+    color: #511de5;
+    background: transparent
+  }
+
+  .efficiency .img-fluid {
+    padding: 30px 40px;
+    margin: 0px 40px 0px 0px;
+  }
+  
+
+  
+/***************efficiency section ends*********************/
+
+/***************design section starts*********************/
+.design {
+  width: 100%;
+  padding: 30px 0px;
+  background: #fcfcfc;
+}
+
+.design .design-inner {
+  width: 100%;
+  padding: 50px 0px;
+  text-align: center;
+}
+
+.design .design-inner h1 {
+  font-size: 40px;
+  font-weight: 800;
+  line-height: 48px;
+  margin-bottom: 20px;
+  letter-spacing: -2px;
+}
+
+.design .design-inner p {
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 24px;
+  font-family: 'Maven Pro', sans-serif;
+  margin: 20px 0px;
+}
+
+.design .design-card {
+  width: 100%;
+  padding: 30px 0px;
+  text-align: center;
+}
+
+.design .design-card h2 {
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 28px;
+  font-family: 'Maven Pro', sans-serif;
+}
+
+.design .design-card p {
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 24px;
+  font-family: 'Maven Pro', sans-serif;
+  margin: 20px 0px;
+}
+
+.design .bor {
+  border-right: 1px solid #f2f2f2;
+  border-left: 1px solid #f2f2f2;
+}
+/***************design section ends*********************/
+
+/***************quote section starts*********************/
+.quote {
+  width: 100%;
+  padding: 60px 50px;
+}
+
+.quote .quote-inner {
+  width: 100%;
+  padding: 60px 40px;
+  text-align: center;
+}
+
+.quote .quote-inner h1 {
+  font-size: 40px;
+  font-weight: 800;
+  line-height: 48px;
+  margin-bottom: 20px;
+  letter-spacing: -2px;
+}
+
+.quote .quote-details {
+  width: 100%;
+  padding: 60px 0px 0px;
+  background: url("../images/comma.png") center top no-repeat;
+  background-size: cover;
+  box-shadow: 1px 4px 10px #f2f2f2;
+  opacity: .5;
+}
+
+.quote .quote-details:hover {
+  opacity: 1;
+}
+
+.quote .quote-details:hover .text-inner h4 {
+  color: #511de5;
+}
+
+
+
+.quote .quote-details .text-inner {
+  width: 100%;
+  padding: 60px 0px;
+  text-align: center;
+}
+
+.quote .quote-details .text-inner h4 {
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 28px;
+  font-family: 'Maven Pro', sans-serif;
+  margin-bottom: 40px;
+}
+
+.quote .quote-details .client {
+  padding: 30px 0px 10px;
+  text-align: center;
+  border-top: 1px solid #f2f2f2;
+}
+
+.quote .quote-details .client h4 {
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 28px;
+  margin-top: 10px;
+  font-family: 'Maven Pro', sans-serif;
+  text-transform: uppercase;
+}
+
+.quote .quote-details .client p {
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 24px;
+  font-family: 'Maven Pro', sans-serif;
+}
+/***************quote section ends*********************/
+
+/***************footer-section starts*********************/
+.footer-section {
+  width: 100%;
+  padding: 120px 0px 0px;
+  background: url("../images/fbg.png") center bottom no-repeat;
+  background-size: contain;
+}
+
+.footer-section .faq {
+  width: 100%;
+  padding: 70px 150px;
+  margin-bottom: 40px;
+  text-align: center;
+  background: #fff;
+  box-shadow: 1px 4px 10px #ccc;
+}
+
+.faq .title {
+  width: 100%;
+  padding: 40px 0px 70px;
+}
+
+.faq .title h1 {
+  font-size: 40px;
+  font-weight: 800;
+  line-height: 48px;
+  margin-bottom: 20px;
+  letter-spacing: -2px;
+}
+
+.footer-section .faq-inner {
+  width: 100%;
+}
+
+.footer-section .faq-inner .card {
+  background-color: #fff;
+  background-clip: border-box;
+  border: 0px;
+  border-radius: 0px;
+}
+.footer-section .faq-inner .card-header {
+  padding: 0.75rem 1.25rem;
+  margin-bottom: 0px;
+  background-color: #fff;
+  border-bottom: 0px;
+}
+
+.footer-section .faq-inner .card-body {
+  -ms-flex: 1 1 auto;
+  flex: 1 1 auto;
+  min-height: 1px;
+  padding: 10px 34px;
+  text-align: left;
+  font-size: 14px;
+  line-height: 24px;
+  font-weight: 500;
+  font-family: 'Maven Pro',sans-serif;
+}
+
+.footer-section .faq-inner .btn-link {
+  font-weight: 700;
+  font-size: 18px;
+  color: #000;
+  text-decoration: none;
+}
+
+.footer-section .faq-inner .btn-link:hover {
+  color: #0000ff;
+  text-decoration: none;
+}
+
+.footer-section .faq-inner .btn-link:focus {
+  color: #0000ff;
+}
+
+.btn.focus, .btn:focus {
+  outline: 0;
+  box-shadow: none;
+}
+
+.footer-section {
+  width: 100%;
+  padding: 40px 0px;
+}
+
+.footer-section .footer-bottom {
+  width: 100%;
+  padding: 60px 0px;
+}
+
+.footer-section .list-items {
+  display: inline;
+  list-style: none;
+}
+
+.footer-section .list-items li {
+  display: inline-block; 
+}
+
+.footer-section .list-items li a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 14px;
+  font-weight: 600;
+  padding-right: 30px;
+}
+
+.footer-section .list-items li a:hover {
+  color: #ccc;
+}
+
+.footer-section .title-bottom {
+  padding: 60px 0px;
+}
+
+.footer-section .title-bottom h6 {
+  color: #fff;
+  font-size: 14px;
+  font-weight: 600;
+  text-align: right;
+}
+/***************footer-section ends*********************/
+
